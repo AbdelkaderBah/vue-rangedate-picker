@@ -49,7 +49,7 @@
             :class="{'active-preset': presetActive === item.label}">
             {{item.label}}
           </li>
-          <li><button class="calendar-btn-apply" @click="setDateValue()">{{captions.ok_button}}</button></li>
+          <li><button type="button" class="calendar-btn-apply" @click="setDateValue()">{{captions.ok_button}}</button></li>
         </ul>
       </div>
     </div>
